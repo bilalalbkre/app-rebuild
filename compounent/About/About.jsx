@@ -7,12 +7,12 @@ const AboutCont = () => {
     //console.log('test 1 : ' ,title)
     return (
         <>
-            <S.AboutContent>
+            
                 <h1> {title} </h1>
                     <div style={{height:'500px'}}>
                      {cats.map((cat,indx) => <div key={indx}><h1>{cat.name}</h1><p>{cat.description}</p></div> )}
                     </div>
-            </S.AboutContent>
+            
         </>
     )
 }
